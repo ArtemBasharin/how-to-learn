@@ -12,11 +12,11 @@
 <body>
     <div class="page">
         <header class="header">
-            <img src="../images/logo_place_header.svg" class="logo__place-header" alt="Лого Яндекс">
+            <img src="./images/logo_place_header.svg" class="logo logo_place_header" alt="Лого Яндекс">
             <h2 class="header__title">Научиться учиться</h2>
-            <h3 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" class="header__subtitle__link">Узнать &#8594;</a></h3>
-            <img src="../images/header-image.png" class="header__main-illustration" alt='Картина "Опять двойка"'>
-            <p class="header__square-pic"> </p>
+            <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" class="header__subtitle__link">Узнать &#8594;</a></p>
+            <img src="./images/header-image.png" class="header__main-illustration" alt='Картина "Опять двойка"'>
+            <div class="header__square-pic"> </div>
         </header>
         <main class="content">
             <section class="description">
@@ -32,12 +32,8 @@
             </section>
 
             <section class="digits">
-                <div class="section-title">
-                    <h2 class="section-title_h2text">Цифры и факты</h2>
-                </div>
-                <div class="section-subtitle">
-                    <h3 class="section-subtitle_h3text">Про учёбу и мозг</h3>
-                </div>
+                <h2 class="section-title">Цифры и факты</h2>
+                <p class="section-subtitle">Про учёбу и мозг</p>
                 <div class="table">
                     <div class="table__cell">
                         <h4 class="table__heading">86 миллиардов</h4>
@@ -78,18 +74,13 @@
 
             <section class="feynman">
                 <h2 class="feynman__title">Метод Фейнмана</h2>
-                <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
+                <p class="feynman__subtitle">Выучить и не забыть.</p>
                 <a href="#" class="feynman__link">Подробнее &#8594;</a>
             </section>
 
             <section class="kaufman">
-                <div class="kaufman-title">
-                    <h2 class="section-title_h2text">Принципы обучения</h2>
-                </div>
-                <div class="section-subtitle">
-                    <h3 class="section-subtitle_h3text">от Джоша Кауфмана</h3>
-                </div>
-
+                <h2 class="section-title">Принципы обучения</h2>
+                <p class="section-subtitle">от Джоша Кауфмана</p>
                 <div class="table table_theme_dark">
                     <div class="table__cell table__cell_theme_dark">
                         <h4 class="table__heading">1</h4>
@@ -138,23 +129,44 @@
             </section>
         </main>
         <footer class="footer">
-            <div class="columns">
-                <div class="column_content_copyright">
-                    <div class="logo__place-footer"></div>
+            <div class="footer__columns">
+                <div class="footer__column_content_copyright">
+                    <div class="logo logo_place-footer"></div>
                     <p class="footer__author">&copy; 2021. Артем Башарин</p>
                 </div>
-                <div class="column_content_right-part">
-                    <div class="footer__column_content-info">
-                        <p class="footer__column_heading">О Практикуме</p>
-                        <a href="#" class="footer__column-links">Главная</a>
-                        <a href="#" class="footer__column-links">Концепция</a>
-                        <a href="#" class="footer__column-links">Наставники</a>
+                <div class="footer__column column_content_right-part">
+                    <!--этот div является флекс-контейнером для двух колонок "О практикуме"  и "Соцсети", прижимает блоки к правому краю и распределяет свободное место. В ревью сказано, что нужно его убрать. Считаю, что он не является лишним-->
+                    <div class="footer__column footer__column_content-info">
+                        <h3 class="footer__column-heading">О Практикуме</h3>
+                        <nav class="footer__column-links">
+                            <ul>
+                                <li>
+                                    <a href="#" class="footer__column-link">Главная</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer__column-link">Концепция</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer__column-link">Наставники</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
-                    <div class="footer__column_content-social">
-                        <p class="footer__column_heading">Соцсети</p>
-                        <a href="#" class="footer__column-links"> <img src="/images/facebook_color_white.svg" class="footer__social-icon" alt="Фейсбук"> Facebook</a>
-                        <a href="#" class="footer__column-links"> <img src="/images/vk_color_white.svg" class="footer__social-icon" alt="ВК"> ВКонтакте</a>
-                        <a href="#" class="footer__column-links"> <img src="/images/instagram_color_white.svg" class="footer__social-icon" alt="Инстаграмм"> Instagram</a>
+                    <div class="footer__column footer__column_content-social">
+                        <h3 class="footer__column-heading">Соцсети</h3>
+                        <nav class="footer__column-links">
+                            <ul>
+                                <li>
+                                    <a href="#" class="footer__column-link"> <img src="./images/facebook_color_white.svg" class="footer__social-icon" alt="Фейсбук"> Facebook</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer__column-link"> <img src="./images/vk_color_white.svg" class="footer__social-icon" alt="ВК"> ВКонтакте</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer__column-link"> <img src="./images/instagram_color_white.svg" class="footer__social-icon" alt="Инстаграмм"> Instagram</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
