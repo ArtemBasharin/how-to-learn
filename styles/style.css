@@ -53,7 +53,7 @@
     z-index: 10;
 }
 
-.header__subtitle__link {
+.header__link {
     text-decoration: none;
     color: #2f80ed;
 }
@@ -122,7 +122,7 @@
     margin-bottom: 0;
 }
 
-.two-columns__paragraph_span-accent {
+.two-columns__span-accent {
     font-weight: bold;
 }
 
@@ -268,11 +268,12 @@
 }
 
 .footer {
+    margin: 0;
+    padding: 0;
     background-color: #1f1f1f;
     color: white;
     min-height: 350px;
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box
 }
 
 .footer__columns {
@@ -289,13 +290,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.column_content_right-part {
-    display: flex;
-    flex-grow: 1;
-    flex-direction: row;
-    justify-content: right;
 }
 
 .logo_place_footer {
