@@ -432,8 +432,6 @@
                     }
 
                     .oakley {
-                        margin: 0;
-                        padding: 0;
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -449,8 +447,6 @@
                     }
 
                     .khan__container {
-                        margin: 0;
-                        padding: 0;
                         width: 80%;
                         margin: 0 auto 0 auto;
                     }
