@@ -269,7 +269,8 @@
                         top: 0;
                         right: -210px;
                         background-image: url("../images/kaufman-triangle.svg");
-                        z-index: 0;
+                        /* z-index: 9; */
+                        background-size: cover;
                     }
 
                     .footer {
@@ -431,10 +432,96 @@
                     }
 
                     .oakley {
+                        margin: 0;
+                        padding: 0;
                         display: flex;
                         justify-content: center;
                         align-items: center;
                         margin: 0 auto 0 auto;
                         background-color: #f2f2f2;
                         padding: 100px 0 100px 0;
+                    }
+
+                    .khan {
+                        margin: 0;
+                        padding: 0;
+                        background-color: #f2f2f2;
+                    }
+
+                    .khan__container {
+                        margin: 0;
+                        padding: 0;
+                        width: 80%;
+                        margin: 0 auto 0 auto;
+                    }
+
+                    .khan__author {
+                        margin: 0;
+                        padding: 0;
+                        line-height: 42px;
+                        font-size: 30px;
+                        font-weight: normal;
+                    }
+
+                    .khan__title {
+                        margin: 0;
+                        padding: 0;
+                        line-height: 1.15;
+                        font-size: 60px;
+                        font-weight: bold;
+                    }
+
+                    .khan__quote {
+                        margin: 50px 0 0 0;
+                        padding: 0;
+                        line-height: 34px;
+                        font-size: 24px;
+                        font-weight: normal;
+                        width: 790px;
+                    }
+
+                    .khan__quote-author {
+                        margin: 30px 0 0 0;
+                        line-height: 1.15;
+                        font-size: 24px;
+                        font-weight: bold;
+                    }
+
+                    .khan__quote-author-subline {
+                        margin: 10px 0 0 0;
+                        line-height: 1.15;
+                        font-size: 24px;
+                        font-weight: normal;
+                    }
+
+                    .khan__book-container {
+                        margin: 68px 0 0 0;
+                    }
+
+                    .khan__book-pic {
+                        width: 620px;
+                        height: 608px;
+                        object-fit: cover;
+                        object-position: top left;
+                        margin: 0 48px 0 0;
+                    }
+
+                    .khan__buy-link {
+                        line-height: 42px;
+                        font-size: 30px;
+                        font-weight: normal;
+                        color: #2f80ed;
+                        text-decoration: none;
+                        vertical-align: top;
+                    }
+
+                    .resources__logo-zone {
+                        width: 1100px;
+                        margin: 80px auto 217px auto;
+                    }
+
+                    .resources__logo {
+                        width: 270px;
+                        height: 38px;
+                        object-fit: contain;
                     }
