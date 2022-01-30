@@ -1,5 +1,4 @@
-/* @import url(normalize.css); */
-
+@import url(normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place_header/logo_place_header.css);
