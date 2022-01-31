@@ -1,4 +1,7 @@
 .cards__item {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -6,6 +9,6 @@
     margin-right: 100px;
 }
 
-.cards__item:nth-child(3) {
+.cards__item:nth-child(3n) {
     margin-right: 0;
 }

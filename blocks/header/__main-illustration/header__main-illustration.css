@@ -4,5 +4,7 @@
     width: 765px;
     bottom: 0;
     right: 0;
+    object-fit: cover;
+    object-position: bottom right;
     z-index: 9;
 }
