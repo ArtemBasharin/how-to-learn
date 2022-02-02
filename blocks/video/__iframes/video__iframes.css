@@ -4,4 +4,5 @@
     position: relative;
     top: 50px;
     column-gap: 20px;
+    list-style-type: none;
 }
